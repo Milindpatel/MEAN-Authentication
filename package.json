@@ -1,0 +1,30 @@
+{
+  "name": "mean-authentication",
+  "version": "1.0.0",
+  "description": "Authentication app based MEAN",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Milindpatel/MEAN-Authentication.git"
+  },
+  "dependencies": {
+    "express": "*",
+    "mongoose": "*",
+    "bcryptjs": "*",
+    "cors": "*",
+    "jsonwebtoken": "*",
+    "body-parser": "*",
+    "passport": "*",
+    "passport-jwt": "*"
+  },
+  "author": "MILIND",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Milindpatel/MEAN-Authentication/issues"
+  },
+  "homepage": "https://github.com/Milindpatel/MEAN-Authentication#readme"
+}
